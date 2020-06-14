@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestCQRS.App.Impl\TestCQRS.App.Impl.csproj" />
+    <ProjectReference Include="..\TestCQRS.Domain\TestCQRS.Domain.csproj" />
+    <ProjectReference Include="..\TestCQRS.App.Impl\TestCQRS.App.Impl.csproj" />
+    <ProjectReference Include="..\TestCQRS.Queries\TestCQRS.Queries.csproj" />
+    <ProjectReference Include="..\Util\Util.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
